@@ -35,3 +35,19 @@
 |`git log`|커밋한 기록을 보는 것|
 |`git config --global user.name "name"`|현재 시스템의 모든 Git 작업에 사용할 사용자 이름(user.name)을 설정.|
 |`git config --global user.email "email.com"`|현재 시스템의 모든 Git 작업에 사용할 사용자 이메일을 설정.|
+
+git remote add origin https://github.com/datastation8/TIL.git
+
+remote : 원격저장소, add:추가, origin : 별명, https://github.com/datastation8/ :URL, TIL. : Repo, git 
+
+git add .
+
+git push origin master
+
+git pull origin master
+
+cat ~/.gitconfig
+
+git config --global user.datastation8 'datastation8@gmail.com'
+
+touch README.md
